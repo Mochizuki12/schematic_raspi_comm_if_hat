@@ -341,7 +341,7 @@
   (symbol (lib_id "Device:Q_NMOS_GSD") (at 147.32 81.28 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ae592d5-02a1-4ca9-9d85-15b922ca1344)
-    (property "Reference" "Q1" (at 147.32 87.63 90)
+    (property "Reference" "Q2" (at 147.32 87.63 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Q_NMOS_GSD" (at 147.32 90.17 90)
@@ -358,9 +358,6 @@
     (pin "2" (uuid 618abf13-19e6-4153-ba66-cac67daf3a2f))
     (instances
       (project "raspi_comm_if_hat"
-        (path "/756acdc9-6e12-4c33-b236-b5e247e5c2ec"
-          (reference "Q1") (unit 1)
-        )
         (path "/756acdc9-6e12-4c33-b236-b5e247e5c2ec/21f89c75-f7a5-4452-ab90-eaeb5895f083"
           (reference "Q2") (unit 1)
         )
@@ -374,7 +371,7 @@
   (symbol (lib_id "Device:R") (at 125.73 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5b78492e-de46-4f65-8a90-ed0b7536fe36)
-    (property "Reference" "R10" (at 127.508 76.3016 0)
+    (property "Reference" "R14" (at 127.508 76.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 127.508 78.613 0)
@@ -390,9 +387,6 @@
     (pin "2" (uuid 1ce9f38d-fb78-43a5-83a4-a751966bf24c))
     (instances
       (project "raspi_comm_if_hat"
-        (path "/756acdc9-6e12-4c33-b236-b5e247e5c2ec"
-          (reference "R10") (unit 1)
-        )
         (path "/756acdc9-6e12-4c33-b236-b5e247e5c2ec/21f89c75-f7a5-4452-ab90-eaeb5895f083"
           (reference "R14") (unit 1)
         )
@@ -411,7 +405,7 @@
   (symbol (lib_id "Device:R") (at 156.21 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 632b4450-551a-46ec-8add-cce964824fae)
-    (property "Reference" "R10" (at 157.988 76.3016 0)
+    (property "Reference" "R16" (at 157.988 76.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 157.988 78.613 0)
@@ -427,9 +421,6 @@
     (pin "2" (uuid 6e7488f8-f62a-43ea-99f2-171b4535c671))
     (instances
       (project "raspi_comm_if_hat"
-        (path "/756acdc9-6e12-4c33-b236-b5e247e5c2ec"
-          (reference "R10") (unit 1)
-        )
         (path "/756acdc9-6e12-4c33-b236-b5e247e5c2ec/21f89c75-f7a5-4452-ab90-eaeb5895f083"
           (reference "R16") (unit 1)
         )
@@ -448,7 +439,7 @@
   (symbol (lib_id "Device:Q_NMOS_GSD") (at 133.35 92.71 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9c66c37e-4c95-4f91-8fde-118b5ca2e6fe)
-    (property "Reference" "Q1" (at 133.35 99.06 90)
+    (property "Reference" "Q3" (at 133.35 99.06 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "Q_NMOS_GSD" (at 133.35 101.6 90)
@@ -465,9 +456,6 @@
     (pin "2" (uuid fcc8c9a9-ef78-4945-aa41-0bec9c35fa9c))
     (instances
       (project "raspi_comm_if_hat"
-        (path "/756acdc9-6e12-4c33-b236-b5e247e5c2ec"
-          (reference "Q1") (unit 1)
-        )
         (path "/756acdc9-6e12-4c33-b236-b5e247e5c2ec/21f89c75-f7a5-4452-ab90-eaeb5895f083"
           (reference "Q3") (unit 1)
         )
@@ -481,7 +469,7 @@
   (symbol (lib_id "Device:R") (at 165.1 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b4d21e07-f8a0-4692-bbcb-788157305c2f)
-    (property "Reference" "R10" (at 166.878 76.3016 0)
+    (property "Reference" "R17" (at 166.878 76.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 166.878 78.613 0)
@@ -497,9 +485,6 @@
     (pin "2" (uuid 71202da4-1faa-4437-8584-6445c47e4e9c))
     (instances
       (project "raspi_comm_if_hat"
-        (path "/756acdc9-6e12-4c33-b236-b5e247e5c2ec"
-          (reference "R10") (unit 1)
-        )
         (path "/756acdc9-6e12-4c33-b236-b5e247e5c2ec/21f89c75-f7a5-4452-ab90-eaeb5895f083"
           (reference "R17") (unit 1)
         )
@@ -518,7 +503,7 @@
   (symbol (lib_id "Device:R") (at 138.43 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ceb2ef0b-6d52-406d-ae13-48241fba4931)
-    (property "Reference" "R10" (at 140.208 76.3016 0)
+    (property "Reference" "R15" (at 140.208 76.3016 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10k" (at 140.208 78.613 0)
@@ -534,9 +519,6 @@
     (pin "2" (uuid ab90016a-1b70-4b3b-a288-1261c9e376dd))
     (instances
       (project "raspi_comm_if_hat"
-        (path "/756acdc9-6e12-4c33-b236-b5e247e5c2ec"
-          (reference "R10") (unit 1)
-        )
         (path "/756acdc9-6e12-4c33-b236-b5e247e5c2ec/21f89c75-f7a5-4452-ab90-eaeb5895f083"
           (reference "R15") (unit 1)
         )
